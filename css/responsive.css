@@ -43,11 +43,32 @@
     .performance-content {
         padding-right: 0%;
     }
+    .about-bg .center-title {
+        width: 45%;
+    }
+   
+    .solution-box{
+        padding: 30px 25px;
+    }
+    .solution-box h4{
+        margin-bottom: 30px;
+    }
+    .team-content {
+        width: 70%;
+        color: #fff;
+    }
+    .solution-bottom.about-solution {
+        width: 74%;
+    }
 }
 
 @media screen and (max-width: 1375px){
     .service-title {
         width: 60%;
+    }
+    .team-content {
+        width: 75%;
+        color: #fff;
     }
     .service-title p {
         font-size: 18px;
@@ -107,8 +128,22 @@
     .hero-content p {
         font-size: 18px;
     }
+    .solution-bottom.about-solution {
+        width: 80%;
+    }
 }
-
+@media screen and (max-width: 1255px){
+    .about-bg .center-title {
+        width: 50%;
+    }
+    .team-content {
+        width: 84%;
+        color: #fff;
+    }
+    .solution-bottom.about-solution {
+        width: 90%;
+    }
+}
 @media screen and (max-width: 1200px){
     .navbar-brand img{
         width: 150px;
@@ -160,10 +195,24 @@
         line-height: 43px;
         font-size: 40px;
     }
+    p{
+        font-size: 18px;
+    }
+}
+@media screen and (max-width: 1128px){
+    .about-bg .center-title {
+        width: 66%;
+    }
+    .about-bg .network-title-left{
+        display: none;
+    }
 }
 @media screen and (max-width: 1099px){
     .navbar-brand img {
         width: 130px;
+    }
+    .about-bg .center-title {
+        width: 79%;
     }
     .navbar-light .navbar-nav .nav-link {
         font-size: 14px;
@@ -280,6 +329,9 @@
 
 @media screen and (max-width: 600px){
     .hero-content img {
+        width: 100%;
+    }
+    .about-bg .center-title {
         width: 100%;
     }
     .hero-content h1 {
@@ -404,5 +456,36 @@
     }
     .padd-bottom{
         padding: 50px 0;
+    }
+    .about-bg .center-title{
+        margin-bottom: 50px;
+    }
+    .mission {
+        padding-right: 0%;
+    }
+    .about-bg .center-title{
+        margin-top: 50px;
+    }
+    .about-bg{
+        padding-bottom: 0;
+    }
+    .core-value{
+        padding: 50px 0;
+    }
+    .team{
+        padding: 150px 0 200px;
+    }
+    .team-content{
+        width: 100%;
+    }
+    .team-content p {
+        color: #fff;
+        font-size: 20px;
+    }
+    .solution-bottom.about-solution {
+        width: 100%;
+    }
+    .solution-bottom{
+        margin: 50px 0;
     }
 }
