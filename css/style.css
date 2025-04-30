@@ -1198,8 +1198,10 @@ footer ul li{
 .lessons-bg ul{
 	margin-bottom: 50px;
 }
-.lessons-bg ul li{
+.lessons-content ul li{
 	display: flex;
+}
+.lessons-bg ul li{
 	font-size: 20px;
 }
 .lessons-bg ul li img{
